@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none
+}
+
+body {
+    position: relative;
+}
+
+.nav-all{
+    background-color: #a6dcef;
+    text-transform: capitalize;
+}
+
+
+.carousel-caption {
+    box-sizing: border-box;
+    /* background-color: #37474f ; */
+
+}
+
+
+.carousel-inner {
+    background-color: #A2D1E8;
+}
+
+/* .carousel-item img {
+    width: 100%;
+    height: 93vh;
+} */
+
+
+#second-cap{
+    color:  white ;
+    font-size:medium;
+    font-weight: 500;
+
+}
+
+.card{
+    max-width: 540px;
+}
+
+.about-img{
+    min-width: 100%;
+    height: 280px;
+}
+
+.abt-img{
+    max-width: 80%;
+}
+
+.bread-about{
+    --bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;); 
+    
+     padding-left: 1rem; 
+     padding-top: 1rem;
+     font-weight: 1000;
+     
+     margin-top: 5px;
+    }
+    
+#bread-abt{
+        
+    background-color: #a6dcef;
+    opacity: 50%;
+}
+
+.services img{
+    width: 100%;
+    height: 85%;
+    padding-top: 2rem;
+}
+
+.image figure{
+ 
+
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+.offer_style{
+    background: #a6dcef;
+}
+
+/* .form-gender {
+    padding-left: none;
+} */
+
+footer p{
+    margin-bottom: 0;
+}
+
+
+
+
+#foot-w{
+    text-decoration: none;
+}
+
+.foot{
+background-color: #37474F;
+}
+
+
+
+
+
+
+
+
+
+/* responsive css code */
+
+/* small devices */
+@media(min-width:576px)
+{
+    
+#second-cap {
+    color: white;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+ 
+}
+
+/* medium devices */
+
+@media(min-width:768px)
+{
+
+#second-cap {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+}
+
+/* large devices */
+@media(min-width:992px)
+{
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+
+}
+
+/* x-large devices */
+@media(min-width:1200px)
+{
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+
+}
+
+/* xx-large devices */
+@media(min-width:1440px)
+{
+.carousel-item img {
+    width: 100%;
+    height: 93vh;
+}
+
+
+}
+
